@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import Resume from './component/Resume';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        Raj Kumar
-      </header>
+    <div>
+      {/* <div> <button className='btn btn-primary'>Gen Pdf</button></div> */}
+      <Resume />
     </div>
   );
 }
